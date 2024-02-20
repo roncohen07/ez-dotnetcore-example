@@ -25,7 +25,7 @@ jobs:
         run: go test -v ./...
       
       - name: Run golintr
-        uses: norwood/golintr@v2.1.0
+        uses: norwd/golintr@dc792c399d1337f938ad42aabc614697bedd3dcb
         with:
           path: ./...
 
